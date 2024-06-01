@@ -1,0 +1,13 @@
+{
+  "name": "AppstoreScreenshoot",
+  "description": "AppstoreScreenshoot Module by AppTeam.it",
+  "type": "module",
+  "version": "1.1.0",
+  "dependencies": {
+    "system": {
+      "type": "SAE",
+      "version": "1.2"
+    },
+    "modules": []
+  }
+}

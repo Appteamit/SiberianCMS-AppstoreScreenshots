@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	 <appstorescreenshoot_application_view>
+    	<addLayout name="admin_menu" />
+        <addLayout name="customization_default" />
+        <views>
+            <content class="core_view_default" template="appstorescreenshoot/application/view.phtml" />
+        </views>
+    </appstorescreenshoot_application_view>
+   
+</layout>
+

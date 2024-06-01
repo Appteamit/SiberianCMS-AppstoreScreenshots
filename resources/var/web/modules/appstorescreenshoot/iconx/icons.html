@@ -1,0 +1,94 @@
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.css">
+
+	<title>App Store Screenshots Generator | Free App Store Screenshots Generator</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	
+    <link rel="stylesheet" href="css/dropzone.css">
+    <link rel="stylesheet" href="css/index.css">
+
+	<script type="text/javascript" src="js/dropzone.js"></script>
+
+</head>
+
+<body>
+
+ <nav class="navbar navbar-light bg-faded navbar-fixed-top">
+ 
+      <ul class="nav navbar-nav">
+ 
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+ 
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+
+      </ul>
+
+ </nav>
+
+	<div class="jumbotron" id="home">
+
+		<div class="center">
+
+		  <h1 class="display-4">App Store Screenshots Generator</h1>
+
+		  <p class="lead">Upload 1 to 5 images at once, and we will convert all your images for you.</p>
+
+		  <hr class="m-y-2">
+		
+		<form action="main.php" enctype="multipart/form-data" method="post" class="form-inline">
+
+		<div class="dropzone" id="convertImages">
+
+			<div class="fallback">
+
+				<input type="file" name="file[]" id="images" multiple="">
+
+			</div>
+
+		</div>
+
+		<div class="input-group">
+
+			<span class="input-group-addon" id="sizing-addon2"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+
+			<input type="email" name="email" id="email" class="form-control" placeholder="Your Email" aria-describedby="sizing-addon2">
+
+		</div>
+
+		<button class="btn btn-primary" type="submit" id="upload">Convert My Images</button>
+
+	    </form>
+
+		</div>
+
+	</div>
+
+	<div class="jumbotron" id="about">
+
+	text
+
+	</div>
+
+	<div class="jumbotron" id="third">
+
+	text
+
+	</div>
+
+	<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>
